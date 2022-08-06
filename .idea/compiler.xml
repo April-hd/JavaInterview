@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JavaInterview" target="8" />
       <module name="JavaSE" target="8" />
     </bytecodeTargetLevel>
   </component>
