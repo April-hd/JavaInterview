@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/JavaSE.iml" afterDir="false" />
-    </list>
+    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="删除编译的字节码文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +21,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Environment\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -156,7 +153,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="面试系列-JavaSE" />
+    <MESSAGE value="删除编译的字节码文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除编译的字节码文件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
