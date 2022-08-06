@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="删除编译的字节码文件" />
+    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="删除编译的字节码文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaSE/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProject/JavaInterview" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,13 +57,13 @@
       <recent name="D:\Environment\GitProject\JavaInterview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hut.c3_designpattern.proxy.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.singleton.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hut.c3_designpattern.proxy.*" />
+          <option name="PATTERN" value="com.hut.c3_designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hut.c3_designpattern.singleton.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.strategy.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hut.c3_designpattern.singleton.*" />
+          <option name="PATTERN" value="com.hut.c3_designpattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hut.c3_designpattern.strategy.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.prototype.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hut.c3_designpattern.strategy.*" />
+          <option name="PATTERN" value="com.hut.c3_designpattern.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hut.c2_thread.t3.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hut.c2_thread.t3.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hut.c2_thread.t3.*" />
+          <option name="PATTERN" value="com.hut.c2_thread.t3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hut.c3_designpattern.prototype.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.proxy.Test" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hut.c3_designpattern.prototype.*" />
+          <option name="PATTERN" value="com.hut.c3_designpattern.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (5)" />
       </list>
     </recent_temporary>
