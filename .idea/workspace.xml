@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/JavaSE.iml" afterDir="false" />
-    </list>
+    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="删除编译的字节码文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +12,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Environment\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -25,6 +26,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Environment\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -138,7 +140,30 @@
       <updated>1659810653383</updated>
       <workItem from="1659810655730" duration="74000" />
       <workItem from="1659810739587" duration="807000" />
+      <workItem from="1659811580599" duration="328000" />
     </task>
+    <task id="LOCAL-00001" summary="面试系列-JavaSE">
+      <created>1659811681779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659811681779</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除编译的字节码文件">
+      <created>1659811813978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659811813978</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dev分支">
+      <created>1659811890198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659811890198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +181,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="面试系列-JavaSE" />
+    <MESSAGE value="删除编译的字节码文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除编译的字节码文件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
