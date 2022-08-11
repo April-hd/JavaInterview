@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="无用的文件">
+    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="没用的文件提交">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/JavaSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/JavaSE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Environment\Git\bin\git.exe" />
@@ -20,6 +33,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProject/JavaInterview" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProject/JavaSE" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,16 +73,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Environment\GitProject\JavaInterview\JavaSE\src\main\java\com\hut\c3_designpattern\factory\abs\b" />
       <recent name="D:\Environment\GitProject\JavaInterview\JavaSE\src\main\java" />
       <recent name="D:\Environment\GitProject\JavaInterview" />
     </key>
-  </component>me<component name="RunManager" selected="Application.Test">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.singleton.Test" />
-      <module name="JavaSE" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hut.consumer" />
+      <recent name="com.hut.producer" />
+      <recent name="com.hut.c3_designpattern.factory.abs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomConsumerSeekTime">
+    <configuration name="CustomConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumer" />
+      <module name="Kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hut.c3_designpattern.singleton.*" />
+          <option name="PATTERN" value="com.hut.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.strategy.Test" />
-      <module name="JavaSE" />
+    <configuration name="CustomConsumerByHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumerByHand" />
+      <module name="Kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hut.c3_designpattern.strategy.*" />
+          <option name="PATTERN" value="com.hut.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.c3_designpattern.prototype.Test" />
-      <module name="JavaSE" />
+    <configuration name="CustomConsumerSeekOffset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumerSeekOffset" />
+      <module name="Kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hut.c3_designpattern.prototype.*" />
+          <option name="PATTERN" value="com.hut.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.c2_thread.t3.Test" />
-      <module name="JavaSE" />
+    <configuration name="CustomConsumerSeekTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumerSeekTime" />
+      <module name="Kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hut.c2_thread.t3.*" />
+          <option name="PATTERN" value="com.hut.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.c1_collection.list.Test" />
-      <module name="JavaSE" />
+    <configuration name="CustomProducerCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.producer.CustomProducerCallback" />
+      <module name="Kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hut.c1_collection.list.*" />
+          <option name="PATTERN" value="com.hut.producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CustomConsumerSeekTime" />
+        <item itemvalue="Application.CustomConsumerSeekOffset" />
+        <item itemvalue="Application.CustomConsumer" />
+        <item itemvalue="Application.CustomProducerCallback" />
+        <item itemvalue="Application.CustomConsumerByHand" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +171,7 @@
       <workItem from="1659810739587" duration="807000" />
       <workItem from="1659811580599" duration="328000" />
       <workItem from="1659813692918" duration="107000" />
+      <workItem from="1660182993447" duration="22874000" />
     </task>
     <task id="LOCAL-00001" summary="面试系列-JavaSE">
       <created>1659811681779</created>
