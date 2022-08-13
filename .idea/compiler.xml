@@ -9,12 +9,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JavaSE" />
         <module name="Kafka" />
+        <module name="Jedis" />
+        <module name="Redis_SpringBoot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaInterview" target="8" />
       <module name="JavaSE" target="8" />
+      <module name="Jedis" target="8" />
       <module name="Kafka" target="8" />
+      <module name="Redis" target="8" />
+      <module name="Redis_SpringBoot" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Redis_SpringBoot" options="" />
+    </option>
   </component>
 </project>

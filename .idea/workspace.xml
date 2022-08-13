@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="没用的文件提交">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/JavaSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/JavaSE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaSE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/com/hut/consumer.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka/src/main/java/com/hut/consumer.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,33 +85,7 @@
       <recent name="com.hut.c3_designpattern.factory.abs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomConsumerSeekTime">
-    <configuration name="CustomConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumer" />
-      <module name="Kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hut.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomConsumerByHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumerByHand" />
-      <module name="Kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hut.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.RedisSpringBootApplication">
     <configuration name="CustomConsumerSeekOffset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hut.consumer.CustomConsumerSeekOffset" />
       <module name="Kafka" />
@@ -136,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomProducerCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hut.producer.CustomProducerCallback" />
-      <module name="Kafka" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.string.StringTest" />
+      <module name="Jedis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hut.producer.*" />
+          <option name="PATTERN" value="com.hut.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,13 +125,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.Test" />
+      <module name="Jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hut.VerifyCode" />
+      <module name="Jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Redis_SpringBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hut.redis_springboot.RedisSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerifyCode" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.CustomConsumerSeekTime" />
         <item itemvalue="Application.CustomConsumerSeekOffset" />
-        <item itemvalue="Application.CustomConsumer" />
-        <item itemvalue="Application.CustomProducerCallback" />
-        <item itemvalue="Application.CustomConsumerByHand" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +215,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka-clients" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
