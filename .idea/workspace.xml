@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="没用的文件提交">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2235af5a-bc5a-415b-acf4-2edb8920b587" name="Changes" comment="redis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/com/hut/consumer.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka/src/main/java/com/hut/consumer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/Redis_SpringBoot/src/main/java/com/hut/redis_springboot/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/Redis_SpringBoot/src/main/java/com/hut/redis_springboot/controller/RedisController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659813111658</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="redis">
+      <created>1660413465027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660413465027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +235,8 @@
     <MESSAGE value="面试系列-JavaSE" />
     <MESSAGE value="删除编译的字节码文件" />
     <MESSAGE value="添加父pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加父pom" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
