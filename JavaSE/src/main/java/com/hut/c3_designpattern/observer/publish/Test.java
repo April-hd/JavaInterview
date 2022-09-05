@@ -45,7 +45,7 @@ public class Test {
                 e.printStackTrace();
             }
         });
-        // 发布监听器执行完毕事件
+        // 发布监听器初始化完毕事件
         context.publish(new InitEndEvent());
     }
 

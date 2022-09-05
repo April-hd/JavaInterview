@@ -1,10 +1,12 @@
-package com.hut.c3_designpattern.factory.simple;
+package com.hut.c3_designpattern.factory;
 
 import com.hut.c3_designpattern.factory.abs.AbstratFactory;
 import com.hut.c3_designpattern.factory.abs.Clothes;
 import com.hut.c3_designpattern.factory.abs.Trousers;
 import com.hut.c3_designpattern.factory.abs.a.AFactory;
 import com.hut.c3_designpattern.factory.abs.b.BFactory;
+import com.hut.c3_designpattern.factory.simple.SimpleFactory;
+import com.hut.c3_designpattern.factory.simple.SimpleProduct;
 
 public class Test {
 
