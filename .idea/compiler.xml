@@ -11,15 +11,18 @@
         <module name="Kafka" />
         <module name="Jedis" />
         <module name="Redis_SpringBoot" />
+        <module name="demo-mongodb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo-mongodb" target="8" />
       <module name="JavaInterview" target="8" />
       <module name="JavaSE" target="8" />
       <module name="Jedis" target="8" />
       <module name="Kafka" target="8" />
       <module name="Redis" target="8" />
       <module name="Redis_SpringBoot" target="8" />
+      <module name="SpringBoot" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

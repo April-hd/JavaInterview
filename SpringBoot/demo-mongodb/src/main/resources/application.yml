@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: mongodb
+  data:
+    mongodb:
+      uri: mongodb://192.168.30.128:27017/test

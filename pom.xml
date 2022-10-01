@@ -13,6 +13,7 @@
         <module>JavaSE</module>
         <module>Kafka</module>
         <module>Redis</module>
+        <module>SpringBoot</module>
     </modules>
 
     <properties>
